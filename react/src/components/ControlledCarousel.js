@@ -1,0 +1,76 @@
+import React,{useState} from "react";
+import Carousel from 'react-bootstrap/Carousel';
+
+
+const ControlledCarousel = props => {
+
+	
+
+	return (
+		<div >
+				<Carousel >
+				  <Carousel.Item id="carousel">
+				    <img
+				      className="a-block w-100"
+					  src="/images/lea.jpg"
+				      alt="First slide"
+				    />
+				    <Carousel.Caption>
+				      <h3>First slide label</h3>
+				      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+				    </Carousel.Caption>
+				  </Carousel.Item>
+
+
+				<Carousel.Item>
+				    <img
+				      className="a-block w-100"
+					  src="/images/loonie.jpg"
+				      alt="Second slide"
+				    />
+				    <Carousel.Caption>
+				      <h3>Second slide label</h3>
+				      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+				    </Carousel.Caption>
+				  </Carousel.Item>
+
+
+
+
+				  <Carousel.Item>
+				    <img
+				      className="d-block w-100"
+				      src="/images/ely.jpg"
+				      alt="Third slide"
+				    />
+
+				    <Carousel.Caption>
+				      <h3>Third slide label</h3>
+				      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				    </Carousel.Caption>
+				  </Carousel.Item>
+
+
+
+				   <Carousel.Item>
+				    <img
+				      className="d-block w-100"
+				      src="/images/coln.jpg"
+				      alt="Fourth slide"
+				    />
+
+				    <Carousel.Caption>
+				      <h3>Third slide label</h3>
+				      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				    </Carousel.Caption>
+				  </Carousel.Item>
+
+
+				</Carousel>
+
+
+</div>
+	);
+};
+// export the hooks component
+export default ControlledCarousel; //para maaccess siya sa ibang file
